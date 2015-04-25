@@ -1,0 +1,23 @@
+.Home {
+  .Home-title {
+    border-bottom: 1px solid #337ab7;
+  }
+
+  .landing {
+    background-image: url("http://img1.wikia.nocookie.net/__cb20150224224739/leagueoflegends/images/thumb/b/b5/Bard_OriginalSkin.jpg/779px-Bard_OriginalSkin.jpg");
+    background-size: cover;
+    color: white;
+    padding: 1.5em;
+  }
+
+  .landing-text {
+    background: rgba(0,0,0,.5);
+    padding: 0em;
+    margin-bottom: .5em;
+    width: auto;
+
+    h1 { margin: 0; }
+  }
+
+
+}

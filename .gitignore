@@ -1,0 +1,9 @@
+# Dependencies packages
+bower_components
+node_modules
+*.log
+
+# Generated assets
+app/assets/css
+app/assets/html
+app/assets/js

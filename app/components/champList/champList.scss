@@ -1,0 +1,21 @@
+.ChampList {
+  .col-xs-3 { padding:.3em;}
+  .thumbnail { margin: 0; position: relative;}
+
+  .active .overlay { display: none;}
+
+  .options {
+    text-align: center;
+    margin: 1em;
+  }
+
+  .overlay {
+    background: rgba(0,0,0,.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+}
