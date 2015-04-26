@@ -1,7 +1,7 @@
 {
-  "name": "BOOM",
+  "name": "weeselect",
   "version": "0.1.0",
-  "description": "A basic frontend project generator",
+  "description": "A better champ selector.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,9 @@
     "gulp-connect": "^2.2.0",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-util": "^3.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datyayu/weeselect.git"
   }
 }

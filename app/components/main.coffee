@@ -1,14 +1,21 @@
 angular.module "boom", [
-  "ui.router",
+  "ui.router"
 ]
 
 
-.config ($urlRouterProvider, $stateProvider) ->
+.config ($locationProvider, $urlRouterProvider, $stateProvider) ->
+  $locationProvider.html5Mode yes
 
   $stateProvider
-    .state "Main",
-      url: ""
-      views: {
-        "menu": { templateUrl: "/app/assets/html/menu.html" }
-        "main": { templateUrl: "/app/assets/html/log.html" }
-      }
+    # Home page
+    .state "main",
+      url: "/"
+      templateUrl: "/app/assets/html/home.html"
+    #Development commit log
+    .state "log",
+      url: "/log"
+      templateUrl: "/app/assets/html/log.html"
+    # Main champ generator
+    .state "random",
+      url: "/random"
+      templateUrl: "/app/assets/html/champList.html"

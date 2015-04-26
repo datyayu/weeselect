@@ -1,10 +1,10 @@
 {
-  "name": "BOOM",
+  "name": "weeselect",
   "version": "0.1.0",
   "authors": [
     "Arturo Coronel <aoitsu3@gmail.com>"
   ],
-  "description": "A basic frontend project generator",
+  "description": "A better champ selector.",
   "license": "MIT",
   "ignore": [
     "**/.*",
