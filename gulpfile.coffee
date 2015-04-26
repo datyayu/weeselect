@@ -1,6 +1,7 @@
 # Dependencies.
 gulp       = require "gulp"
 gutil      = require "gulp-util"
+plumber    = require "gulp-plumber"
 connect    = require "gulp-connect"
 flatten    = require "gulp-flatten"
 addsrc     = require "gulp-add-src"
@@ -58,8 +59,10 @@ gulp.task "layouts", ->
 # Style compilation.
 gulp.task "dev-styles", ->
   gulp.src paths.styles.src
+    .pipe plumber
+      errorHandler: onError
     .pipe sourcemaps.init()
-    .pipe sass().on("error", gutil.log)
+    .pipe sass()
     .pipe addsrc(paths.styles.libs)
     .pipe concat("styles.css")
     .pipe sourcemaps.write("./maps")
@@ -68,6 +71,8 @@ gulp.task "dev-styles", ->
 
 gulp.task "styles", ->
   gulp.src paths.styles.src
+    .pipe plumber
+      errorHandler: onError
     .pipe sass()
     .pipe addsrc(paths.styles.libs)
     .pipe concat("styles.scss")
@@ -77,8 +82,10 @@ gulp.task "styles", ->
 # scripts compilation.
 gulp.task "dev-scripts-app", ->
   gulp.src paths.scripts.src
+    .pipe plumber
+      errorHandler: onError
     .pipe sourcemaps.init()
-    .pipe coffee().on("error", gutil.log)
+    .pipe coffee()
     .pipe ngannotate()
     .pipe concat("app.js")
     .pipe sourcemaps.write()
@@ -89,12 +96,16 @@ gulp.task "dev-scripts-app", ->
 # third-party scripts are compiled separated from the main app.
 gulp.task "dev-scripts-libs", ->
   gulp.src paths.scripts.libs
+    .pipe plumber
+      errorHandler: onError
     .pipe concat("libs.js")
     .pipe gulp.dest(paths.scripts.dest)
 
 gulp.task "scripts", ->
   gulp.src paths.scripts.src
-    .pipe coffee({bare: true}).on("error", gutil.log)
+    .pipe plumber
+      errorHandler: onError
+    .pipe coffee()
     .pipe addsrc(paths.scripts.libs)
     .pipe ngannotate()
     .pipe concat("app.js")
@@ -102,6 +113,10 @@ gulp.task "scripts", ->
     .pipe gulp.dest(paths.scripts.dest)
 
 
+
+onError = (error) ->
+  gutil.log gutil.colors.red(error)
+  @emit "end"
 
 # Development tasks
 gulp.task "dev", [

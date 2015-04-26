@@ -4,18 +4,24 @@
   // .save-button {padding:.5em; font-size: 2em}
 
   .col-xs-2 {
-    padding:0em;
+    padding: 0em;
     padding-left: 0em;
-    padding-right: 0;
+    padding-right: 0em;
     height: 100%;
   }
 
   ul {
-    overflow-y: auto;
-    max-height: 55vh;
+    display: block;
+
+    li {border: 1px solid transparent; border-radius: 5px;}
   }
 
-  .selected .overlay { display: none;}
+  .selected {
+    box-sizing: border-box;
+    border: 1px solid #337ab7;
+
+    .overlay { display: none;}
+  }
 
   .options {
     text-align: center;
@@ -24,6 +30,7 @@
 
   .overlay {
     background: rgba(0,0,0,.6);
+    border-radius: 3px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -31,4 +38,9 @@
     left: 0;
   }
 
+}
+
+
+@media screen and (min-width: 900px) {
+  .ChampList ul { max-height: 45vh; overflow-y: auto;}
 }

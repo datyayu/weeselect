@@ -1,6 +1,9 @@
 angular.module "weeselect", [
   "ui.router"
   "weeselect.routes"
+  "weeselect.services.champsService"
+  "weeselect.controllers.champList"
+  "weeselect.controllers.champSelected"
 ]
 
 

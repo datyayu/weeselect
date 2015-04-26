@@ -17,9 +17,11 @@ angular.module "weeselect.routes", []
     # Main champ generator
     .state "random",
       url: "/random"
+      controller: "ChampListCtrl"
       templateUrl: "/app/assets/html/champList.html"
 
     # When the user rolled
     .state "pick",
       url: "/pick"
+      controller: "ChampSelectedCtrl"
       templateUrl: "/app/assets/html/champSelected.html"

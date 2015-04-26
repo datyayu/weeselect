@@ -3,7 +3,7 @@
     background: white;
     padding: 1em 5em;
     width: 100%;
-    padding-bottom: 11.5em;
+    padding-bottom: 0em;
   }
 
   .Home-previews {
@@ -17,7 +17,7 @@
   }
 
   .landing {
-    background-image: url("http://img2.wikia.nocookie.net/__cb20100330032759/leagueoflegends/images/c/ce/Urf_OriginalSkin.jpg");
+    background-image: url("http://i.ytimg.com/vi/tMcYPdQW6Jc/maxresdefault.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: white;
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 900px) {
   .Home {
-    .landing { height: 50vh;}
+    .landing { height: 100vh;}
 
     .landing-text {
       width:400em;

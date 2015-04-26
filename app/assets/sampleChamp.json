@@ -1,0 +1,16 @@
+{
+  "name": "Aatrox",
+  "title": "the Darkin Blade",
+  "image": "http://img2.wikia.nocookie.net/__cb20130617223509/leagueoflegends/images/thumb/1/18/Aatrox_OriginalLoading.jpg/110px-Aatrox_OriginalLoading.jpg",
+  "build": {
+    "name": "ThatsNotMyPirate's Aatrox - Blade of Blood",
+    "items": [
+      "http://www.mobafire.com/images/item/mercurys-treads.gif",
+      "http://www.mobafire.com/images/item/spirit-visage.gif",
+      "http://www.mobafire.com/images/item/blade-of-the-ruined-king.gif",
+      "http://www.mobafire.com/images/item/randuins-omen.gif",
+      "http://www.mobafire.com/images/item/the-bloodthirster.gif",
+      "http://www.mobafire.com/images/item/last-whisper.gif"
+    ]
+  }
+}
