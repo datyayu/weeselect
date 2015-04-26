@@ -1,19 +1,32 @@
 .ChampList {
-  .col-xs-3 { padding:.3em;}
-  .thumbnail { margin: 0; position: relative;}
+    margin-top: 1em;
 
-  .active .overlay { display: none;}
+  // .save-button {padding:.5em; font-size: 2em}
+
+  .col-xs-2 {
+    padding:0em;
+    padding-left: 0em;
+    padding-right: 0;
+    height: 100%;
+  }
+
+  ul {
+    overflow-y: auto;
+    max-height: 55vh;
+  }
+
+  .selected .overlay { display: none;}
 
   .options {
     text-align: center;
-    margin: 1em;
+    margin-bottom: 1em;
   }
 
   .overlay {
     background: rgba(0,0,0,.6);
+    position: absolute;
     height: 100%;
     width: 100%;
-    position: absolute;
     top: 0;
     left: 0;
   }

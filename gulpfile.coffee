@@ -78,7 +78,7 @@ gulp.task "styles", ->
 gulp.task "dev-scripts-app", ->
   gulp.src paths.scripts.src
     .pipe sourcemaps.init()
-    .pipe coffee({bare: true}).on("error", gutil.log)
+    .pipe coffee().on("error", gutil.log)
     .pipe ngannotate()
     .pipe concat("app.js")
     .pipe sourcemaps.write()

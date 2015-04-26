@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="boom">
+<html lang="en" ng-app="weeselect">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <base href="/">
-  <title>Boom</title>
+  <title>weeselect</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/app/assets/css/styles.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
    <!--[if lt IE 9]>
@@ -13,8 +14,9 @@
      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
    <![endif]-->
 </head>
-<body>
-  <nav class="navbar navbar-inverse navbar-default">
+<body ng-controller="MainCtrl">
+  <!-- Navbar -->
+  <nav class="navbar navbar-fixed-top navbar-inverse navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,16 +29,21 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/random">Random</a></li>
-          <li><a href="/log">About</a></li>
+          <li ng-class="isActive('/random')")><a href="/random">Random</a></li>
+          <li ng-class="isActive('/log')"><a href="/log">Log</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
-  <div ui-view>
+  <!-- Content -->
+  <div class="content" ui-view></div>
 
-  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <a href=""><i class="fa fa-twitter"></i></a>
+    <a href=""><i class="fa fa-github"></i></a>
+  </footer>
 
   <script src="/app/assets/js/libs.js"></script>
   <script src="/app/assets/js/app.js"></script>

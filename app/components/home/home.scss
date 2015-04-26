@@ -1,28 +1,67 @@
 .Home {
+  .Home-features {
+    background: white;
+    padding: 1em 5em;
+    width: 100%;
+    padding-bottom: 11.5em;
+  }
+
   .Home-previews {
-    // width: 200px;
+    max-width: 100%;
     height: 200px;
   }
 
   .Home-title {
     border-bottom: 1px solid #337ab7;
+    font-size: 3em;
   }
 
   .landing {
-    background-image: url("http://img1.wikia.nocookie.net/__cb20150224224739/leagueoflegends/images/thumb/b/b5/Bard_OriginalSkin.jpg/779px-Bard_OriginalSkin.jpg");
+    background-image: url("http://img2.wikia.nocookie.net/__cb20100330032759/leagueoflegends/images/c/ce/Urf_OriginalSkin.jpg");
     background-size: cover;
+    background-attachment: fixed;
     color: white;
+    display: table-cell;
     padding: 1.5em;
+    vertical-align: middle;
+    width: 100vw;
   }
 
   .landing-text {
     background: rgba(0,0,0,.5);
     padding: 0em;
+    margin: 0 auto;
     margin-bottom: .5em;
-    width: auto;
+    width: 17em;
 
-    h1 { margin: 0; }
+    h1 {
+      span { color: #337ab7; }
+      font-size: 2em;
+      margin: 0;
+    }
+
+    p { color: rgba(white, .7); }
   }
+}
 
+@media screen and (min-width: 500px) {
+  .Home {
+    .landing-text {
+      max-width:20em;
 
+      h1 { font-size: 3em;}
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Home {
+    .landing { height: 50vh;}
+
+    .landing-text {
+      width:400em;
+
+      h1 { font-size: 4em;}
+    }
+  }
 }
