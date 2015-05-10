@@ -2,7 +2,6 @@
 mongoose = require 'mongoose'
 Schema   = mongoose.Schema
 
-
 # Champ
 champSchema = new Schema
   # Champ info
@@ -26,7 +25,6 @@ champSchema = new Schema
     type: String
   updatedAt:
     type: String
-
 
 # Export model
 Champ = mongoose.model 'Champ', champSchema

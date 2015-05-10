@@ -2,21 +2,16 @@ angular
 .module "weeselect.controllers.champSelected", []
 
 .controller "ChampSelectedCtrl", ($scope, ChampsService) ->
-  $scope.champ
+  $scope.champ = null
 
   ChampsService
-    .getChamps()
-    .then (pool) =>
-      ChampsService
-        .getRandomChampFrom pool
-        .then (champ) =>
-          $scope.champ = champ.data
+    .getRandomChamp()
+    .then (champ) =>
+      $scope.champ = champ.data
 
-  $scope.reroll = =>
+
+  $scope.reroll = ->
     ChampsService
-      .getChamps()
-      .then (pool) =>
-        ChampsService
-          .getRandomChampFrom pool
-          .then (champ) =>
-            $scope.champ = champ.data
+      .getRandomChamp()
+      .then (champ) =>
+        $scope.champ = champ.data

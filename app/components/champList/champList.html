@@ -1,7 +1,7 @@
 <div class="ChampList fluid-container">
   <!-- Options -->
   <div class="options col-xs-10 col-sm-6 col-sm-6 col-md-4 col-xs-offset-1 col-sm-offset-3 col-md-offset-4">
-    <a role="button" ng-click="saveChamps()" href="#/pick" class="save-button btn btn-primary btn-lg btn-block">
+    <a role="button" ng-click="saveChamps()" href="/pick" class="save-button btn btn-primary btn-lg btn-block">
       Roll
     </a>
 
@@ -22,7 +22,7 @@
         ng-class="{selected: champ.selected}">
       <a ng-click="setActive($index)" class="thumbnail">
         <div class="overlay"></div>
-        <img ng-src="{{champ.min}}" alt="{{champ.name}}">
+        <img ng-src="/assets/img/{{champ.min}}" alt="{{champ.name}}">
       </a>
   </ul>
 </div>

@@ -15,7 +15,6 @@ angular
   @getChampList = ->
     deferred = $q.defer()
 
-    #TODO: Replace sample json for http request.
     $http
       .get "/api/champs"
       .then (champList) ->
@@ -23,14 +22,21 @@ angular
 
     deferred.promise
 
-  @getRandomChampFrom = (pool) ->
+  @getRandomChamp = ->
     deferred = $q.defer()
 
-    #TODO: Replace sample json for http request.
-    $http
-      .get "/api/champs/random"
-      .then (champ) ->
-        deferred.resolve champ
+    if @champs.length is 0
+      deferred.reject null
+
+    else
+      pool = []
+      for champ, idx in @champs
+        pool[idx] = champ.id
+
+      $http
+        .post "/api/champs/random", pool
+        .then (champ) ->
+          deferred.resolve champ
 
     deferred.promise
 
