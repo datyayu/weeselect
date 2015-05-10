@@ -1,5 +1,6 @@
 fs       = require 'fs'
 mongoose = require 'mongoose'
+_        = require 'lodash'
 moment   = require 'moment'
 async    = require 'async'
 glob     = require 'glob'
@@ -10,7 +11,6 @@ module.exports = (currentDir) ->
   console.log 'cool'
   # json files.
   files = glob.sync currentDir + '/../itemSets/**/*.json'
-  console.log files[0]
 
 
   # Get info from each file.
@@ -55,11 +55,17 @@ module.exports = (currentDir) ->
           # Add build to champs
           (champ, callback) ->
             buildList = []
+            index = 0
 
-            for build, index in builds
+            for build in builds
+              if _.includes(build.type, 'Starters') or _.include(build.type, 'Consumables')
+                continue
+
               buildList[index] =
                 title: build.type
                 items: build.items
+
+              index++
 
             champ.builds = buildList
 
@@ -72,7 +78,6 @@ module.exports = (currentDir) ->
       (err, result) ->
         return console.log(err) if err
 
-        console.log result
         console.log "#{ file } parse completed"
         eachFileCallback()
     )

@@ -17,7 +17,7 @@ angular
 
     $http
       .get "/api/champs"
-      .then (champList) ->
+      .then (champList) =>
         deferred.resolve champList
 
     deferred.promise
@@ -35,9 +35,23 @@ angular
 
       $http
         .post "/api/champs/random", pool
-        .then (champ) ->
+        .then (champ) =>
           deferred.resolve champ
 
     deferred.promise
+
+
+  @getLocalChampList = =>
+    deferred = $q.defer()
+
+    @getChampList()
+      .then (champList) =>
+        for champ in champList
+          champ.selected = localStorage.getItem(champ.id) is 'true'
+        @champs = champList
+        deferred.resolve champList
+
+    deferred.promise
+
 
   return this

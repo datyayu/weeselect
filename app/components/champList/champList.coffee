@@ -10,7 +10,6 @@ angular
       $scope.champs = champList.data
       for champ in $scope.champs
         champ.selected = localStorage.getItem(champ.id) is 'true'
-        console.log champ.selected
 
 
   # Add or remove a champion from the pool.
@@ -21,21 +20,21 @@ angular
 
 
   # Remove all champs from the pool.
-  $scope.selectNone = () ->
+  $scope.selectNone = ->
     $scope.champs.forEach (champ) ->
       champ.selected = no
       localStorage.setItem champ.id, no
 
 
   # Add all champs to the pool.
-  $scope.selectAll = () ->
+  $scope.selectAll = ->
     $scope.champs.forEach (champ) ->
       champ.selected = yes
       localStorage.setItem champ.id, yes
 
 
   # Save to current service array.
-  $scope.saveChamps = () ->
+  $scope.saveChamps = ->
     selected = []
 
     for champ in $scope.champs

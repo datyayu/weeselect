@@ -3,11 +3,20 @@ angular
 
 .controller "ChampSelectedCtrl", ($scope, ChampsService) ->
   $scope.champ = null
+  allChamps = no
 
-  ChampsService
-    .getRandomChamp()
-    .then (champ) =>
-      $scope.champ = champ.data
+  ChampsService.getChamps().then (champs) =>
+    allChamps = yes if champs.length is 0
+
+    ChampsService
+      .getLocalChampList()
+      .then (champList) =>
+        ChampsService.setChamps champList
+        console.log champList
+        ChampsService
+          .getRandomChamp()
+          .then (champ) =>
+            $scope.champ = champ.data
 
 
   $scope.reroll = ->

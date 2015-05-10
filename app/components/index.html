@@ -29,8 +29,9 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
+          <li ng-class="isActive('/')")><a href="/">Home</a></li>
           <li ng-class="isActive('/random')")><a href="/random">Random</a></li>
-          <li ng-class="isActive('/log')"><a href="/log">Log</a></li>
+          <li ng-class="isActive('/about')"><a href="/about">About</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -41,8 +42,8 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <a href="https://twitter.com/datyayu"><i class="fa fa-twitter"></i></a>
-    <a href="https://github.com/datyayu/weeselect"><i class="fa fa-github"></i></a>
+    <a href="https://twitter.com/datyayu" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/datyayu/weeselect" target="_blank"><i class="fa fa-github"></i></a>
   </footer>
 
   <script src="/assets/js/libs.js"></script>

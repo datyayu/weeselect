@@ -10,9 +10,9 @@ angular.module "weeselect.routes", []
       templateUrl: "/assets/html/home.html"
 
     #Development commit log
-    .state "log",
-      url: "/log"
-      templateUrl: "/assets/html/log.html"
+    .state "about",
+      url: "/about"
+      templateUrl: "/assets/html/about.html"
 
     # Main champ generator
     .state "random",

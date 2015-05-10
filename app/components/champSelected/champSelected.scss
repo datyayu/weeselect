@@ -4,8 +4,12 @@
   .ChampSelected-options { margin-top: 1em; }
 
   .thumbnail {
-    margin: .2em 0em;
+    margin:  0em;
     padding: .2em .2em;
+  }
+
+  .item-image {
+    border-radius: 10px;
   }
 
   .col-sm-2 {
@@ -20,6 +24,6 @@
   .ChampSelected{
     margin-top:1em;
 
-    .build { margin-top: 3.5em; }
+    .build { margin-top: 5em; }
   }
 }
