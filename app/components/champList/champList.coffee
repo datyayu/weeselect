@@ -8,7 +8,6 @@ angular
     .getChampList()
     .then (champList) ->
       $scope.champs = champList.data
-      console.log champList.data
 
   $scope.setActive = (index) ->
     $scope.champs[index].selected = !$scope.champs[index].selected
@@ -28,5 +27,4 @@ angular
     for champ in $scope.champs
       selected.push(champ) if champ.selected
 
-    console.log selected
     ChampsService.setChamps selected

@@ -1,0 +1,168 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "3303"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (50.84% wins over 1426 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3303"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (53.4% wins over 440 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3092"
+				},
+				{
+					"count": 1,
+					"id": "3117"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				},
+				{
+					"count": 1,
+					"id": "3800"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>W>E (47.75% wins over 371 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3092"
+				},
+				{
+					"count": 1,
+					"id": "3117"
+				},
+				{
+					"count": 1,
+					"id": "3165"
+				},
+				{
+					"count": 1,
+					"id": "3190"
+				},
+				{
+					"count": 1,
+					"id": "3800"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>W>E (49.46% wins over 305 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Duo_support 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Annie"
+}

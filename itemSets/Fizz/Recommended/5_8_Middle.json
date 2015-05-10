@@ -1,0 +1,168 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1056"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (50.52% wins over 2474 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (52.63% wins over 399 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3026"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3100"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				}
+			],
+			"type": "Most Freq Build, Skill: E>W>Q (49% wins over 663 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3026"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3100"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				}
+			],
+			"type": "Highest Win Build, Skill: E>W>Q (51.06% wins over 298 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Middle 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Fizz"
+}

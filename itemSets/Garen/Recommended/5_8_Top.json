@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1054"
+				},
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (49.22% wins over 2511 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1001"
+				},
+				{
+					"count": 4,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (55.92% wins over 211 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3009"
+				},
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3068"
+				},
+				{
+					"count": 1,
+					"id": "3071"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3083"
+				}
+			],
+			"type": "Most Freq Build, Skill: E>Q>W (48.62% wins over 150 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3009"
+				},
+				{
+					"count": 1,
+					"id": "3035"
+				},
+				{
+					"count": 1,
+					"id": "3068"
+				},
+				{
+					"count": 1,
+					"id": "3071"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				}
+			],
+			"type": "Highest Win Build, Skill: E>Q>W (50.59% wins over 130 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Top 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Garen"
+}

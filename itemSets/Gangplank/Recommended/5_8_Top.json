@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (50.13% wins over 720 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1055"
+				},
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (58.91% wins over 129 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3031"
+				},
+				{
+					"count": 1,
+					"id": "3035"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3087"
+				},
+				{
+					"count": 1,
+					"id": "3142"
+				},
+				{
+					"count": 1,
+					"id": "3158"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>W>E (49.72% wins over 52 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3031"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3087"
+				},
+				{
+					"count": 1,
+					"id": "3102"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				},
+				{
+					"count": 1,
+					"id": "3158"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>E>W (53.16% wins over 51 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Top 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Gangplank"
+}

@@ -1,0 +1,160 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (50% wins over 2534 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1028"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (57.14% wins over 133 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3047"
+				},
+				{
+					"count": 1,
+					"id": "3068"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>E>W (48.99% wins over 166 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3001"
+				},
+				{
+					"count": 1,
+					"id": "3047"
+				},
+				{
+					"count": 1,
+					"id": "3068"
+				},
+				{
+					"count": 2,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				}
+			],
+			"type": "Highest Win Build, Skill: E>Q>W (50.86% wins over 157 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Top 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Malphite"
+}

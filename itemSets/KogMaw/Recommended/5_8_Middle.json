@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1056"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (48.89% wins over 1082 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (53.43% wins over 204 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3003"
+				},
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				}
+			],
+			"type": "Most Freq Build, Skill: E>Q>W (48.04% wins over 303 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3003"
+				},
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				}
+			],
+			"type": "Highest Win Build, Skill: E>W>Q (53.27% wins over 199 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Middle 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "KogMaw"
+}

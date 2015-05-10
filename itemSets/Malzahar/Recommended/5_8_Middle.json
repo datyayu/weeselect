@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1056"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (53.83% wins over 4157 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1056"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (54.97% wins over 1235 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3027"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3151"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				}
+			],
+			"type": "Most Freq Build, Skill: E>Q>W (52.59% wins over 524 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3027"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3151"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				}
+			],
+			"type": "Highest Win Build, Skill: E>Q>W (54.55% wins over 198 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Middle 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Malzahar"
+}

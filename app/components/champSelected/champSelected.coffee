@@ -11,4 +11,12 @@ angular
         .getRandomChampFrom pool
         .then (champ) =>
           $scope.champ = champ.data
-          console.log(champ.data)
+
+  $scope.reroll = =>
+    ChampsService
+      .getChamps()
+      .then (pool) =>
+        ChampsService
+          .getRandomChampFrom pool
+          .then (champ) =>
+            $scope.champ = champ.data

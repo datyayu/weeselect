@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1055"
+				},
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (45.43% wins over 832 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (45.63% wins over 206 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3151"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>E>W (47.34% wins over 307 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3151"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>E>W (47.34% wins over 307 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Middle 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Corki"
+}

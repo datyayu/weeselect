@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1039"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (50.83% wins over 9167 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1039"
+				},
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (53.43% wins over 698 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3102"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				},
+				{
+					"count": 1,
+					"id": "3709"
+				},
+				{
+					"count": 1,
+					"id": "3800"
+				}
+			],
+			"type": "Most Freq Build, Skill: >W>E (53.17% wins over 230 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3102"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				},
+				{
+					"count": 1,
+					"id": "3709"
+				},
+				{
+					"count": 1,
+					"id": "3800"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>E>W (53.17% wins over 230 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Jungle 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Udyr"
+}

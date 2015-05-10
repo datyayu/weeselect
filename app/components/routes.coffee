@@ -1,7 +1,7 @@
 angular.module "weeselect.routes", []
 
 .config ($locationProvider, $stateProvider) ->
-  $locationProvider.html5Mode yes
+  $locationProvider.html5Mode no
 
   $stateProvider
     # Home page

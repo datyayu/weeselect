@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1054"
+				},
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (48.82% wins over 977 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1029"
+				},
+				{
+					"count": 5,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (54.24% wins over 153 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3068"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3083"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				}
+			],
+			"type": "Most Freq Build, Skill: W>E>Q (51.89% wins over 70 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3068"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3083"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				}
+			],
+			"type": "Highest Win Build, Skill: W>E>Q (51.89% wins over 70 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Top 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Volibear"
+}

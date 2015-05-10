@@ -1,0 +1,168 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "3302"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (57.32% wins over 232 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3302"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (61.11% wins over 144 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3047"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				},
+				{
+					"count": 1,
+					"id": "3190"
+				},
+				{
+					"count": 1,
+					"id": "3401"
+				}
+			],
+			"type": "Most Freq Build, Skill: W>Q>E (51.87% wins over 125 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3047"
+				},
+				{
+					"count": 1,
+					"id": "3050"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				},
+				{
+					"count": 1,
+					"id": "3190"
+				},
+				{
+					"count": 1,
+					"id": "3401"
+				}
+			],
+			"type": "Highest Win Build, Skill: W>E>Q (54.02% wins over 107 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Duo_support 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Taric"
+}

@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (53.33% wins over 1125 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (53.33% wins over 1125 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3071"
+				},
+				{
+					"count": 1,
+					"id": "3074"
+				},
+				{
+					"count": 1,
+					"id": "3083"
+				},
+				{
+					"count": 1,
+					"id": "3102"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>E>W (53.05% wins over 116 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3071"
+				},
+				{
+					"count": 1,
+					"id": "3074"
+				},
+				{
+					"count": 1,
+					"id": "3083"
+				},
+				{
+					"count": 1,
+					"id": "3102"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>E>W (53.05% wins over 116 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Top 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "JarvanIV"
+}

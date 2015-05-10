@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1055"
+				},
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (50.37% wins over 28242 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1055"
+				},
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (50.37% wins over 28242 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3006"
+				},
+				{
+					"count": 1,
+					"id": "3026"
+				},
+				{
+					"count": 1,
+					"id": "3031"
+				},
+				{
+					"count": 1,
+					"id": "3035"
+				},
+				{
+					"count": 1,
+					"id": "3046"
+				},
+				{
+					"count": 1,
+					"id": "3072"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>E>W (48.89% wins over 3859 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3006"
+				},
+				{
+					"count": 1,
+					"id": "3026"
+				},
+				{
+					"count": 1,
+					"id": "3031"
+				},
+				{
+					"count": 1,
+					"id": "3035"
+				},
+				{
+					"count": 1,
+					"id": "3046"
+				},
+				{
+					"count": 1,
+					"id": "3072"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>E>W (51.41% wins over 3313 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Duo_carry 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Graves"
+}

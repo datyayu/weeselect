@@ -1,0 +1,172 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "3303"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (47.82% wins over 115 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 2,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "3303"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (60.86% wins over 23 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3092"
+				},
+				{
+					"count": 1,
+					"id": "3135"
+				},
+				{
+					"count": 1,
+					"id": "3165"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				}
+			],
+			"type": "Most Freq Build, Skill: E>Q>W (46.36% wins over 38 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3020"
+				},
+				{
+					"count": 1,
+					"id": "3089"
+				},
+				{
+					"count": 1,
+					"id": "3157"
+				},
+				{
+					"count": 1,
+					"id": "3165"
+				},
+				{
+					"count": 1,
+					"id": "3285"
+				}
+			],
+			"type": "Highest Win Build, Skill: E>Q>W (48.75% wins over 26 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Duo_support 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Lux"
+}

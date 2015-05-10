@@ -1,0 +1,164 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1039"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (52.14% wins over 9381 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1039"
+				},
+				{
+					"count": 2,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (52.14% wins over 9381 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3117"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				},
+				{
+					"count": 1,
+					"id": "3717"
+				},
+				{
+					"count": 1,
+					"id": "3800"
+				}
+			],
+			"type": "Most Freq Build, Skill: W>E>Q (50.78% wins over 200 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3111"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				},
+				{
+					"count": 1,
+					"id": "3725"
+				},
+				{
+					"count": 1,
+					"id": "3800"
+				}
+			],
+			"type": "Highest Win Build, Skill: W>E>Q (53.19% wins over 77 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Jungle 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Volibear"
+}

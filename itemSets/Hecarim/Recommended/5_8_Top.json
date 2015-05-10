@@ -1,0 +1,160 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (52.71% wins over 4162 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "1029"
+				},
+				{
+					"count": 5,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (60.57% wins over 175 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "3047"
+				},
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3075"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3142"
+				}
+			],
+			"type": "Most Freq Build, Skill: Q>E>W (51.51% wins over 494 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 2,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3078"
+				},
+				{
+					"count": 1,
+					"id": "3083"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3143"
+				}
+			],
+			"type": "Highest Win Build, Skill: Q>W>E (53.01% wins over 287 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Top 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Hecarim"
+}

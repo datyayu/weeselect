@@ -1,0 +1,168 @@
+{
+	"map": "any",
+	"isGlobalForChampions": false,
+	"blocks": [
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "3301"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Most Frequent Starters (52.38% wins over 672 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 3,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "3303"
+				},
+				{
+					"count": 1,
+					"id": "3340"
+				},
+				{
+					"count": 1,
+					"id": "3341"
+				},
+				{
+					"count": 1,
+					"id": "3342"
+				}
+			],
+			"type": "Highest Win Rate Starters (55.7% wins over 307 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 2,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3069"
+				},
+				{
+					"count": 1,
+					"id": "3158"
+				},
+				{
+					"count": 1,
+					"id": "3222"
+				},
+				{
+					"count": 1,
+					"id": "3504"
+				}
+			],
+			"type": "Most Freq Build, Skill: W>Q>E (50.64% wins over 212 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2049"
+				},
+				{
+					"count": 1,
+					"id": "3065"
+				},
+				{
+					"count": 1,
+					"id": "3069"
+				},
+				{
+					"count": 1,
+					"id": "3110"
+				},
+				{
+					"count": 1,
+					"id": "3117"
+				},
+				{
+					"count": 1,
+					"id": "3190"
+				}
+			],
+			"type": "Highest Win Build, Skill: W>Q>E (52.37% wins over 204 games)"
+		},
+		{
+			"items": [
+				{
+					"count": 1,
+					"id": "2003"
+				},
+				{
+					"count": 1,
+					"id": "2004"
+				},
+				{
+					"count": 1,
+					"id": "2044"
+				},
+				{
+					"count": 1,
+					"id": "2043"
+				},
+				{
+					"count": 1,
+					"id": "2041"
+				},
+				{
+					"count": 1,
+					"id": "2138"
+				},
+				{
+					"count": 1,
+					"id": "2137"
+				},
+				{
+					"count": 1,
+					"id": "2139"
+				},
+				{
+					"count": 1,
+					"id": "2140"
+				}
+			],
+			"type": "Consumables"
+		}
+	],
+	"associatedChampions": [],
+	"title": "Duo_support 5.8",
+	"priority": false,
+	"mode": "any",
+	"isGlobalForMaps": true,
+	"associatedMaps": [],
+	"type": "custom",
+	"sortrank": 1,
+	"champion": "Soraka"
+}

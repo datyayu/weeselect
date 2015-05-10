@@ -1,25 +1,29 @@
 # Dependencies.
-path       = require "path"
-router     = require "./routes"
-bodyParser = require "body-parser"
-express    = require "express"
+path       = require 'path'
+express    = require 'express'
+bodyParser = require 'body-parser'
+mongoose   = require 'mongoose'
+routes     = require './routes'
+champAdder = require './libs/champAdder'
 
 # Local variables.
-app       = express()
-port      = process.env.PORT || 8000
+app  = express()
+port = process.env.PORT || 8000
 
-# Assets files
-assetsDir = path.join __dirname, "assets"
-indexFile = path.join __dirname, "assets", "html" ,"index.html"
+# Database connection.
+url = process.env.MONGOLAB_URI || 'mongodb://localhost/weeselect'
+mongoose.connect url
 
-# App config.
+# Midlewate
 app.use bodyParser.json()
-app.use "/app/assets", express.static(assetsDir)
 
-# Send main html file.
-app.get "*", (req, res) ->
-  res.sendFile indexFile
+# Add Builds
+champAdder __dirname
 
-# Start app
+# Routes
+app.use routes
+
+
+# Start app.
 app.listen port, ->
   console.log "Server listening on port #{ port }"

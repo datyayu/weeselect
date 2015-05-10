@@ -17,7 +17,7 @@ angular
 
     #TODO: Replace sample json for http request.
     $http
-      .get "/app/assets/sampleChampList.json"
+      .get "/api/champs"
       .then (champList) ->
         deferred.resolve champList
 
@@ -28,7 +28,7 @@ angular
 
     #TODO: Replace sample json for http request.
     $http
-      .get "/app/assets/sampleChamp.json"
+      .get "/api/champs/random"
       .then (champ) ->
         deferred.resolve champ
 
