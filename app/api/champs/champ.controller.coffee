@@ -43,8 +43,13 @@ exports.random = (req, res) ->
   Champ
     .find {id: champId}
     .select '-__v'
-    .exec (err, champ) ->
+    .exec (err, champs) ->
       return res.send err if err
-      return res.send "No champ was found using #{ champId }" if not champ[0]?
+      return res.send "No champ was found using #{ champId }" if not champs[0]?
 
-      res.send champ[0] # Cero because mongoose's .find returns an array.
+      champ =
+        name: champs[0].name
+        image: champs[0].image
+        build: _.sample champs[0].builds
+
+      res.send champ
