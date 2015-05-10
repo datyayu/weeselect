@@ -3,13 +3,11 @@ angular
 
 .controller "ChampListCtrl", ($scope, ChampsService) ->
   $scope.champs = []
-
+  
   ChampsService
     .getChampList()
     .then (champList) ->
-      $scope.champs = champList.data
-      for champ in $scope.champs
-        champ.selected = localStorage.getItem(champ.id) is 'true'
+      $scope.champs = champList
 
 
   # Add or remove a champion from the pool.

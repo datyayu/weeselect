@@ -8,9 +8,8 @@ angular
     @champs = champList
 
   @getChamps = ->
-    deferred = $q.defer()
-    deferred.resolve @champs
-    deferred.promise
+    @champs
+
 
   @getChampList = ->
     deferred = $q.defer()
@@ -18,40 +17,31 @@ angular
     $http
       .get "/api/champs"
       .then (champList) =>
-        deferred.resolve champList
+        for champ in champList.data
+          champ.selected = localStorage.getItem(champ.id) is 'true'
+        deferred.resolve champList.data
 
     deferred.promise
 
-  @getRandomChamp = ->
+  @getRandomChamp = (pool) ->
     deferred = $q.defer()
 
-    if @champs.length is 0
+    if pool.length is 0
       deferred.reject null
 
-    else
-      pool = []
-      for champ, idx in @champs
-        pool[idx] = champ.id
-
-      $http
-        .post "/api/champs/random", pool
-        .then (champ) =>
-          deferred.resolve champ
+    $http
+      .post "/api/champs/random", pool
+      .then (champ) =>
+        deferred.resolve champ.data
 
     deferred.promise
 
+  @getLocalChamps = ->
+    champIDs = []
+    for champ in Object.keys(localStorage)
+      champIDs.push champ if localStorage.getItem(champ) is 'true'
 
-  @getLocalChampList = =>
-    deferred = $q.defer()
-
-    @getChampList()
-      .then (champList) =>
-        for champ in champList
-          champ.selected = localStorage.getItem(champ.id) is 'true'
-        @champs = champList
-        deferred.resolve champList
-
-    deferred.promise
+    return champIDs
 
 
   return this
