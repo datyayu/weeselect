@@ -12,6 +12,8 @@ sourcemaps = require "gulp-sourcemaps"
 sass       = require "gulp-sass"
 ngannotate = require "gulp-ng-annotate"
 coffee     = require "gulp-coffee"
+imagemin   = require "gulp-image-optimization"
+pngquant   = require "imagemin-pngquant"
 
 # Paths.
 paths =
@@ -33,6 +35,9 @@ paths =
       "./bower_components/angular-ui-router/release/angular-ui-router.js"
     ]
     dest: "./app/assets/js/"
+  imgs:
+    src: "./app/assets/raw_img/**/*"
+    dest: "./app/assets/img/"
 
 
 
@@ -71,11 +76,11 @@ gulp.task "dev-styles", ->
     .pipe connect.reload()
 
 gulp.task "styles", ->
-  gulp.src paths.styles.src
+  gulp.src paths.styles.libs
+    .pipe addsrc(paths.styles.src)
     .pipe plumber
       errorHandler: onError
-    .pipe sass()
-    .pipe addsrc(paths.styles.libs)
+    .pipe sass({outputStyle: 'compressed'})
     .pipe concat("styles.css")
     .pipe gulp.dest(paths.styles.dest)
 
@@ -121,6 +126,16 @@ gulp.task "scripts", ->
     .pipe gulp.dest(paths.scripts.dest)
 
 
+# Image minification
+gulp.task "images", ->
+  gulp.src paths.imgs.src
+    .pipe imagemin({
+      optimizationLevel: 5
+      progressive: true
+      interlaced: true
+    })
+    .pipe gulp.dest(paths.imgs.dest)
+
 
 onError = (error) ->
   gutil.log gutil.colors.red(error)
@@ -128,11 +143,11 @@ onError = (error) ->
 
 # Development tasks
 gulp.task "dev", [
-  "dev-layouts",
-  "dev-scripts-app",
+  "dev-layouts"
+  "dev-scripts-app"
   "dev-scripts-libs"
-  "dev-server",
-  "dev-styles",
+  "dev-server"
+  "dev-styles"
 ], ->
   gulp.watch paths.layouts.src, ["dev-layouts"]
   gulp.watch paths.styles.src,  ["dev-styles"]
@@ -141,7 +156,8 @@ gulp.task "dev", [
 
 # Production task
 gulp.task "build", [
-  "layouts",
-  "styles",
+  "layouts"
+  "styles"
   "scripts"
+  "images"
 ]
