@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "A better champ selector.",
   "main": "gulpfile.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "bower install && gulp build"
+  },
   "author": "Arturo Coronel <aoitsu3@gmail.com>",
   "license": "MIT",
   "dependencies": {
