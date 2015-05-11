@@ -3,7 +3,7 @@ angular
 
 .controller "ChampListCtrl", ($scope, ChampsService) ->
   $scope.champs = []
-  
+
   ChampsService
     .getChampList()
     .then (champList) ->
@@ -32,10 +32,10 @@ angular
 
 
   # Save to current service array.
-  $scope.saveChamps = ->
-    selected = []
-
-    for champ in $scope.champs
-      selected.push(champ) if champ.selected
-
-    ChampsService.setChamps selected
+  # $scope.saveChamps = ->
+  #   selected = []
+  #
+  #   for champ in $scope.champs
+  #     selected.push(champ) if champ.selected
+  #
+  #   ChampsService.setChamps selected
