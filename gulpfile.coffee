@@ -3,6 +3,7 @@ gulp       = require "gulp"
 gutil      = require "gulp-util"
 plumber    = require "gulp-plumber"
 connect    = require "gulp-connect"
+order      = require "gulp-order"
 flatten    = require "gulp-flatten"
 addsrc     = require "gulp-add-src"
 concat     = require "gulp-concat"
@@ -75,7 +76,7 @@ gulp.task "styles", ->
       errorHandler: onError
     .pipe sass()
     .pipe addsrc(paths.styles.libs)
-    .pipe concat("styles.scss")
+    .pipe concat("styles.css")
     .pipe gulp.dest(paths.styles.dest)
 
 
@@ -107,9 +108,16 @@ gulp.task "scripts", ->
       errorHandler: onError
     .pipe coffee()
     .pipe addsrc(paths.scripts.libs)
-    .pipe ngannotate()
+    .pipe order([
+      "bower_components/jquery/**/*.js"
+      "bower_components/bootstrap/**/*.js"
+      "bower_components/angular/**/*.js"
+      "bower_components/angular-ui-router/**/*.js"
+      "app/**/*.js"
+    ], {base: __dirname})
     .pipe concat("app.js")
-    .pipe uglify()
+    .pipe ngannotate()
+    # .pipe uglify()
     .pipe gulp.dest(paths.scripts.dest)
 
 
