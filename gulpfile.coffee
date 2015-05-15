@@ -13,7 +13,7 @@ sass       = require "gulp-sass"
 ngannotate = require "gulp-ng-annotate"
 coffee     = require "gulp-coffee"
 imagemin   = require "gulp-image-optimization"
-pngquant   = require "imagemin-pngquant"
+
 
 # Paths.
 paths =
@@ -65,8 +65,7 @@ gulp.task "layouts", ->
 # Style compilation.
 gulp.task "dev-styles", ->
   gulp.src paths.styles.src
-    .pipe plumber
-      errorHandler: onError
+    .pipe plumber({errorHandler: onError})
     .pipe sourcemaps.init()
     .pipe sass()
     .pipe addsrc(paths.styles.libs)
@@ -78,8 +77,7 @@ gulp.task "dev-styles", ->
 gulp.task "styles", ->
   gulp.src paths.styles.libs
     .pipe addsrc(paths.styles.src)
-    .pipe plumber
-      errorHandler: onError
+    .pipe plumber({errorHandler: onError})
     .pipe sass({outputStyle: 'compressed'})
     .pipe concat("styles.css")
     .pipe gulp.dest(paths.styles.dest)
@@ -88,8 +86,7 @@ gulp.task "styles", ->
 # scripts compilation.
 gulp.task "dev-scripts-app", ->
   gulp.src paths.scripts.src
-    .pipe plumber
-      errorHandler: onError
+    .pipe plumber({errorHandler: onError})
     .pipe sourcemaps.init()
     .pipe coffee()
     .pipe ngannotate()
@@ -102,15 +99,13 @@ gulp.task "dev-scripts-app", ->
 # third-party scripts are compiled separated from the main app.
 gulp.task "dev-scripts-libs", ->
   gulp.src paths.scripts.libs
-    .pipe plumber
-      errorHandler: onError
+    .pipe plumber({errorHandler: onError})
     .pipe concat("libs.js")
     .pipe gulp.dest(paths.scripts.dest)
 
 gulp.task "scripts", ->
   gulp.src paths.scripts.src
-    .pipe plumber
-      errorHandler: onError
+    .pipe plumber({errorHandler: onError})
     .pipe coffee()
     .pipe addsrc(paths.scripts.libs)
     .pipe order([
@@ -122,7 +117,7 @@ gulp.task "scripts", ->
     ], {base: __dirname})
     .pipe concat("app.js")
     .pipe ngannotate()
-    # .pipe uglify()
+    .pipe uglify()
     .pipe gulp.dest(paths.scripts.dest)
 
 
@@ -142,7 +137,7 @@ onError = (error) ->
   @emit "end"
 
 # Development tasks
-gulp.task "dev", [
+gulp.task "serve", [
   "dev-layouts"
   "dev-scripts-app"
   "dev-scripts-libs"
@@ -150,7 +145,7 @@ gulp.task "dev", [
   "dev-styles"
 ], ->
   gulp.watch paths.layouts.src, ["dev-layouts"]
-  gulp.watch paths.styles.src,  ["dev-styles"]
+  gulp.watch paths.styles.src , ["dev-styles"]
   gulp.watch paths.scripts.src, ["dev-scripts-app"]
 
 
